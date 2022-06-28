@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SectionInfo = styled.section`
-width:100vw;
+width:97.5vw;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -107,7 +107,8 @@ li img {
     ul {
     width:850px;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
+    align-items:center;
     color:white;
 }
 li {
@@ -136,9 +137,11 @@ li img {
 `
 
 export const ProjectsInfo = styled.div`
+margin-top:50px;
 display:flex;
 flex-direction:column;
 li {
+    margin:25px;
     border: 2px solid white;
     line-height:5px;
     justify-content:center;
@@ -178,7 +181,7 @@ align-items:center;
 }
 
 @media only screen and (min-width:850px){
-    width:100%;
+    width:90%;
 margin-top: 30px;
 margin-bottom: 30px;
 display:flex;
