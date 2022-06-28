@@ -188,6 +188,13 @@ align-items:center;
     justify-content:space-between;
     margin-top:auto;
     align-items:center;
+}
+
+button {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 
 }
 
