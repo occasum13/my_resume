@@ -101,9 +101,10 @@ return (
                     
                 </ProjectsInfo>
             </TechInfo>
+            <a href="https://github.com/occasum13">github</a>
+
             <Footer>
             <button className="buttonA" onClick={handleClickA}>Home</button>
-            <a href="https://github.com/occasum13">github</a>
             <button className="buttonB" onClick={handleClickB}>Contatos</button>
             </Footer>
 

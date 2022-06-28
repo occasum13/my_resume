@@ -25,6 +25,7 @@ button {
     border:2px solid white;
     display:flex;
     justify-content:center;
+    align-items:center;
     text-align:center;
     flex-direction:column;
     padding: 0.15em 0.5em;

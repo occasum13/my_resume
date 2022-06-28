@@ -9,11 +9,11 @@ const Home = () => {
     return (
         <>
         <SectionHome>
-        <DivHomeIntro>
+        <div className="home--Info">
         <p>Olá, sou</p>
         <h1>João Gayer</h1>
         <h2>Desenvolvedor Web Frontend.</h2>
-        </DivHomeIntro>
+        </div>
         <button onClick={handleClick}></button>
         </SectionHome>
         </>

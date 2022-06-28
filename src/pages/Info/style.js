@@ -1,16 +1,21 @@
 import styled from "styled-components"
 
 export const SectionInfo = styled.section`
-width:100%;
-height:100%;
+width:100vw;
 display:flex;
 flex-direction:column;
+justify-content:center;
 text-align:center;
+align-items:center;
 background-color:black;
 color:white;
-margin:-10px;
+margin-left:-8px;
+margin-top:-8px;
 padding:10px;
 
+.who--Info {
+    width: 70%;
+}
 
 button {
     width: 200px;
@@ -44,31 +49,40 @@ h2 {
 }
 
 h3, p {
-    font-size:16px;
+    font-size:18px;
     font-variant:small-caps;
 }
 
 
-
+a {
+    margin-top:30px;
+    font-size:24px;
+    font-variant: small-caps;
+    color:white;
+}
 
 `
 
 export const TechInfo = styled.div`
-
-ul {
+@media only screen and (max-width:850px){
+    
+    ul {
+    width:70%;
     display:flex;
     justify-content:center;
+    flex-direction:column;
+    align-items:center;
     color:white;
 }
 li {
-    margin-right:30px;
+    margin-bottom:35px;
     width:fit-content;
     display:flex;
+    justify-content:center;
+    align-items:center;
+
     height:30px;
     flex-direction:column;
-    padding: 0.15em 0.5em;
-    box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 10px 10px 0px 0px;
-
 }
 
 li p {
@@ -86,9 +100,39 @@ li img {
     border: 0.5px solid white;
 }
 
-ul h3 {
-    margin-right: 20px;
+
 }
+
+@media only screen and (min-width:850px){
+    ul {
+    width:850px;
+    display:flex;
+    justify-content:center;
+    color:white;
+}
+li {
+    width:fit-content;
+    display:flex;
+    height:30px;
+    flex-direction:column;
+    margin-right:10px;
+
+}
+
+li a {
+    color:white;
+    font-size:18px;
+    font-variant:small-caps;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+li img {
+    border: 0.5px solid white;
+}
+
+}
+
 `
 
 export const ProjectsInfo = styled.div`
@@ -111,13 +155,44 @@ li {
 `
 
 export const Footer = styled.footer`
-a {
-    font-size:24px;
-    font-variant: small-caps;
-    color:white;
-}
+@media only screen and (max-width:850px){
+
+width:100%;
 margin-top: 30px;
 margin-bottom: 30px;
 display:flex;
+justify-content:center;
+align-items:center;
+
+.buttonA {
+    width:150px;
+    margin:20px;
+    align-items:center;
+}
+
+.buttonB {
+    width:150px;
+    margin:20px;
+    align-items:center;
+}
+}
+
+@media only screen and (min-width:850px){
+    width:100%;
+margin-top: 30px;
+margin-bottom: 30px;
+display:flex;
+flex-direction:row;
 justify-content:space-between;
+
+.buttonA {
+    width:200px;
+    margin-left:20px;
+}
+
+.buttonB {
+    width:200px;
+}
+}
+
 `

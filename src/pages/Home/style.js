@@ -1,6 +1,41 @@
 import styled from "styled-components"
 
 export const SectionHome = styled.section`
+@media only screen and (max-width:768px){
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center; 
+  background-image:none;
+  
+  .home--Info {
+  height:180px;
+  width:325px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  line-height:5px;
+  justify-content:center;
+text-decoration: none;
+color: #000;
+cursor: pointer;
+border: 3px solid;
+padding: 0.15em 0.5em;
+box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 10px 10px 0px 0px;
+
+  p {
+    font-size: 18px;
+  }
+
+  h1, h2 {
+      font-size:22px;
+      font-variant: small-caps;
+  }
+}
+}
+
+@media only screen and (min-width:768px){    
     width:100vw;
     height:100vh;
     display:flex;
@@ -12,6 +47,34 @@ export const SectionHome = styled.section`
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+    .home--Info {
+    height:180px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    line-height:5px;
+    justify-content:center;
+    background-color:white;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.15em 0.5em;
+  box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 10px 10px 0px 0px;
+
+    p {
+      font-size: 22px;
+    }
+
+    h1, h2 {
+        font-size:32px;
+        font-variant: small-caps;
+    }
+  }
+  }
+
     
 
     button {
@@ -74,28 +137,4 @@ export const SectionHome = styled.section`
 `;
 
 
-export const DivHomeIntro = styled.div`
-    height:180px;
-    width:500px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    line-height:5px;
-    justify-content:center;
-    background-color:white;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-  border: 3px solid;
-  padding: 0.15em 0.5em;
-  box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 10px 10px 0px 0px;
 
-    p {
-      font-size: 22px;
-    }
-
-    h1, h2 {
-        font-size:32px;
-        font-variant: small-caps;
-    }
-`
