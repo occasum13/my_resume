@@ -160,7 +160,7 @@ li {
 export const Footer = styled.footer`
 @media only screen and (max-width:850px){
 
-width:100%;
+width:90%;
 margin-top: 30px;
 margin-bottom: 30px;
 display:flex;

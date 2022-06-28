@@ -34,6 +34,7 @@ button {
 `
 
 export const Footer = styled.footer`
+width:90%;
 margin-top: 30px;
 margin-bottom: 30px;
 display:flex;
