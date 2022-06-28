@@ -181,21 +181,14 @@ align-items:center;
 }
 
 @media only screen and (min-width:850px){
-    width:90%;
-margin-top: 30px;
-margin-bottom: 30px;
-display:flex;
-flex-direction:row;
-justify-content:space-between;
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:auto;
+    align-items:center;
 
-.buttonA {
-    width:200px;
-    margin-left:20px;
-}
-
-.buttonB {
-    width:200px;
-}
 }
 
 `
