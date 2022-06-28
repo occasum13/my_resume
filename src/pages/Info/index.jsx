@@ -57,7 +57,7 @@ return (
                             para armazenar dados dos clientes durante a sessão, com função de registro e 
                             login com verificação de dados, menu, perfil e carrinho. 
                             Feito em mobile first com versão para tablets e desktop."></img>
-                            <a href="https://vercel.com/occasum13/gofresh-kenzie">vercel link</a>
+                            <a href="https://gofresh-kenzie-occasum13.vercel.app">vercel link</a>
                         </li>
 
                         <li>
@@ -65,7 +65,7 @@ return (
                             <img src={"ksociety.png"} width="250" height="200" title="Projeto simples 
                             feito em parceria com mais 3 devs onde construimos este site de jogos temátimo
                              de matrix com mobile first e versão para desktop."></img>
-                            <a href="https://vercel.com/occasum13/ksociety-kenzie">vercel link</a>
+                            <a href="https://ksociety-kenzie-occasum13.vercel.app">vercel link</a>
                         </li>
 
                     </ul>
@@ -80,19 +80,19 @@ return (
                             title="Página simples de personagens do ricky and morty 
                             com cor referente a status de vida e renderização dinâmica 
                             alimentada por uma api remota."></img>
-                            <a href="https://vercel.com/occasum13/s1b013">vercel link</a>
+                            <a href="https://s1b013-occasum13.vercel.app">vercel link</a>
                         </li>
                         <li>
                             <h3>Bikeshop 1</h3>
                             <img src={"bikeshop1.png"} width="250" height="200" 
                             title="Página simples de bicicletaria com cálculo de valores e carrinho com opção de remoção + tab de pesquisa feita no react.js usando styled components"></img>
-                            <a href="https://vercel.com/occasum13/s3a16">vercel link</a>
+                            <a href="https://s3a16-occasum13.vercel.app">vercel link</a>
                         </li>
                         <li>
                             <h3>Bikeshop 2</h3>
                             <img src={"bikeshop2.png"} width="250" height="200" 
                             title="Outra versão da bicicletaria com carrinho e estética diferentes juntamente com pop ups."></img>
-                            <a href="https://vercel.com/occasum13/s3b05">vercel link</a>
+                            <a href="https://s3b05-occasum13.vercel.app">vercel link</a>
                         </li>
                     </ul>
                     </div>
