@@ -1,18 +1,17 @@
 import styled from "styled-components"
 
 export const SectionWork = styled.section`
-width:100%;
-height:768px;
 display:flex;
+height:100vh;
 flex-direction:column;
 text-align:center;
+align-items:center;
 background-color:black;
 color:white;
-margin:-10px;
+margin:-8px;
 padding:10px;
 font-size:22px;
 font-variant: small-caps;
-
 
 button {
     width: 200px;
@@ -25,7 +24,6 @@ button {
     border:2px solid white;
     display:flex;
     justify-content:center;
-    align-items:center;
     text-align:center;
     flex-direction:column;
     padding: 0.15em 0.5em;
@@ -34,10 +32,39 @@ button {
 `
 
 export const Footer = styled.footer`
-width:100%;
-margin-top: 30px;
-margin-bottom: 30px;
-display:flex;
-justify-content:space-between;
-margin-top:auto;
+@media only screen and (max-width:850px){
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    align-items:center;
+    
+    .buttonA {
+        width:150px;
+        align-items:center;
+    }
+    
+    .buttonB {
+        width:150px;
+        align-items:center;
+    }
+    }
+    
+    @media only screen and (min-width:850px){
+        width:100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display:flex;
+        justify-content:space-between;
+        margin-top:auto;
+        align-items:center;
+    }
+    
+    button {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    
+    }
 `

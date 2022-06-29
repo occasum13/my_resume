@@ -8,6 +8,8 @@ export const SectionHome = styled.section`
   justify-content:center;
   align-items:center; 
   background-image:none;
+  margin:-8px;
+  padding:10px;
   
   .home--Info {
   height:180px;
@@ -39,7 +41,6 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
     width:100vw;
     height:100vh;
     display:flex;
-    margin:-8px;
     flex-direction:column;
     justify-content:center;
     align-items:center; 
@@ -47,6 +48,8 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin:-8px;
+    padding:10px;
 
     .home--Info {
     height:180px;
@@ -82,7 +85,7 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
             text-align: center;
             padding: 5px;
             margin-bottom: 6px;
-            margin-top:35px;
+            margin-top:55px;
             height: 15px;
             width: 200px;
             border-style:none;
@@ -95,13 +98,13 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
             animation: bounce .7s infinite alternate;
           }
           @-webkit-keyframes bounce {
-            to { -webkit-transform: scale(1.3); }
+            to { -webkit-transform: scale(1.4); }
           }
           @-moz-keyframes bounce {
-            to { -moz-transform: scale(1.3); }
+            to { -moz-transform: scale(1.4); }
           }
           @keyframes bounce {
-            to { transform: scale(1.3); }
+            to { transform: scale(1.4); }
           }
           
           button:before {

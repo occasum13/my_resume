@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const SectionInfo = styled.section`
-width:97.5vw;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -9,8 +8,7 @@ text-align:center;
 align-items:center;
 background-color:black;
 color:white;
-margin-left:-8px;
-margin-top:-8px;
+margin:-8px;
 padding:10px;
 
 .who--Info {
@@ -80,7 +78,6 @@ li {
     display:flex;
     justify-content:center;
     align-items:center;
-
     height:30px;
     flex-direction:column;
 }
@@ -116,7 +113,6 @@ li {
     display:flex;
     height:30px;
     flex-direction:column;
-    margin-right:10px;
 
 }
 
@@ -141,7 +137,7 @@ margin-top:50px;
 display:flex;
 flex-direction:column;
 li {
-    margin:25px;
+    margin-top: 25px;
     border: 2px solid white;
     line-height:5px;
     justify-content:center;
@@ -160,22 +156,18 @@ li {
 export const Footer = styled.footer`
 @media only screen and (max-width:850px){
 
-width:90%;
 margin-top: 30px;
 margin-bottom: 30px;
 display:flex;
-justify-content:center;
 align-items:center;
 
 .buttonA {
     width:150px;
-    margin:20px;
     align-items:center;
 }
 
 .buttonB {
     width:150px;
-    margin:20px;
     align-items:center;
 }
 }
