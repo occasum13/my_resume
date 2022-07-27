@@ -7,7 +7,7 @@ import Work from "./pages/Work";
 function App() {
   
   return (
-    <div className="app">
+    <div className="App">
       <Router>
       <Routes>
       <Route path="/" selected element ={<Home />} />

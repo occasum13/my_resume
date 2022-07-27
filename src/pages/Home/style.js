@@ -8,6 +8,7 @@ export const SectionHome = styled.section`
   justify-content:center;
   align-items:center; 
   background-image:none;
+  background-color:black;
   margin:-8px;
   padding:10px;
   
@@ -20,7 +21,8 @@ export const SectionHome = styled.section`
   line-height:5px;
   justify-content:center;
 text-decoration: none;
-color: #000;
+color: white;
+background-color:black;
 cursor: pointer;
 border: 3px solid;
 padding: 0.15em 0.5em;
@@ -38,18 +40,15 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
 }
 
 @media only screen and (min-width:768px){    
-    width:100vw;
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center; 
-    background-image: url('john.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin:-8px;
-    padding:10px;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center; 
+  background-image:none;
+  background-color:black;
+  margin:-8px;
+  padding:10px;
 
     .home--Info {
     height:180px;
@@ -59,9 +58,9 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
     align-items:center;
     line-height:5px;
     justify-content:center;
-    background-color:white;
+    background-color:black;
   text-decoration: none;
-  color: #000;
+  color: white;
   cursor: pointer;
   border: 3px solid;
   padding: 0.15em 0.5em;
@@ -91,7 +90,7 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
             border-style:none;
             background-color:transparent;
             cursor:pointer;
-            color: #fff;
+            color: white;
             touch-action: manipulation; 
             -webkit-animation: bounce .7s infinite alternate;
             -moz-animation: bounce .7s infinite alternate;
@@ -108,6 +107,7 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
           }
           
           button:before {
+            border:1px solid white;
             content: '';
             position: absolute;
             top: 0;
@@ -116,10 +116,11 @@ box-shadow: 2px 2px 0px 0px, 4px 4px 0px 0px, 6px 6px 0px 0px, 8px 8px 0px 0px, 
             width: 44%;
             background: black;
             transform: skew(0deg, 15deg);
-            padding: 0.25em 0.5em;
+            padding: 0.25em 0.32em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 2px 0px 0px, 5px 3px 0px 0px;
           }
           button:after {
+            border:1px solid white;
             content: '';
             position: absolute;
             top: 0;
